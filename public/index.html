@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fi" xml:lang="en">
+<head>
+ <title>!decide</title>
+ <meta name="description" content="@Loafer -irkkibotin decide suunniteltuna mobiilikäyttäjille" />
+<meta name="keywords" content="decide" />
+<meta name="author" content="Anna Vuori" />
+<meta charset="UTF-8" />
+<meta name="theme-color" content="#4dd9db">
+<meta name="viewport" content="width=device-width, initial-scale=0.89">
+<link rel="manifest" href="manifest.json">
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+<link href="icon.png" rel="icon" type="image" />
+<script language="javascript" src="client.js"></script>
+</head>
+<body>
+
+<div id="total">
+<table id="formi">
+<tr>
+<td id="otsi" >
+<span id="letter1">!</span><span id="letter2">decide</h1></span>
+</td>
+</tr>
+<tr>
+<td id="op">
+
+<input type="hidden" id="opt" value="1" />
+<input type="text" id="option1" /><input type="button" id="nappi" value="Add" onclick="addOptionTag()" /><br/>
+
+</td>
+</tr>
+
+<td id="target">
+
+</td>
+
+<tr>
+<td id="subm" >
+<input type="button" value="Decide!" onclick="sendOptions()" />
+</td>
+</tr>
+<tr>
+
+</tr>
+</table>
+</div>
+
+</body>
+</html>

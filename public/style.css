@@ -1,0 +1,180 @@
+a.aa:link {
+	color:#e60000;
+    text-decoration: none;
+}
+
+/* visited link */
+a.aa:visited {
+    color:#e60000;
+	text-decoration: none;
+}
+
+/* mouse over link */
+a.aa:hover {
+    color:#4dd9db;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+a.aa{
+	color:#e60000;
+	text-decoration: none;
+}
+
+
+
+html{
+	background-color:#FFFFFF;
+	width:100%
+}
+body{
+	width:100%
+}
+#total{
+	margin:auto;
+	width: 22%;
+	padding-top:15%;
+}
+#formi{
+	border-width:1px;
+	border-color:black;
+}
+
+
+input{
+margin:0.5%;
+}
+#option1{
+	width:70%;
+}
+#nappi{
+	width:25%;
+}
+
+#letter1{
+	font-family:sans-serif;
+	font-weight:bold;
+	font-size:100px;
+	margin-bottom:1px;
+	color:#4dd9db;
+
+}
+#letter2{
+	font-weight:bold;
+	font-family:sans-serif;
+		font-size:100px;
+		margin-bottom:1px;
+		color:#797979;
+
+}
+td{
+	padding:2%;
+
+}
+#otsi{
+	text-align:center;
+}
+#target{
+	min-width:200px;
+	min-height:120px;
+	vertical-align:top;
+
+}
+.tags{
+	margin:3px;
+	padding:3px;
+	width:100%;
+	font-weight:bold;
+	font-size:24px;
+	font-family:sans-serif;
+	border-radius:10px;
+	background-color:#e7e7e7;
+	text-align:center;
+}
+.chosen{
+	margin:3px;
+	padding:3px;
+	width:100%;
+	font-weight:bold;
+	font-size:24px;
+	font-family:sans-serif;
+	border-radius:10px;
+	background-color:#4dd9db;
+	text-align:center;
+}
+#op{
+	vertical-align:top;
+	text-align:center;
+}
+#subm{
+	text-align:center;
+}
+
+#result{
+	font-weight:bold;
+	font-family:sans-serif;
+		font-size:60px;
+		margin-bottom:1px;
+		color:#4dd9db;
+		text-align:center;
+		min-height:80px;
+		border-radius:10px;
+	background-color:#e7e7e7;
+	margin-top:0px;
+	padding-top: 40px;
+  padding-bottom: 40px;
+	
+}
+
+@media only screen and (max-width: 500px) {
+html{
+	overflow-x: hidden;
+	width:100%;
+}
+/*
+	#letter1{
+	font-size:85px;
+
+
+}
+	#letter2{
+
+	font-size:85px;
+	}
+*/
+	
+    #total{
+	margin:auto;
+	width:100%;
+	
+}
+#result{
+	width:92%:
+}
+
+#target{
+	font-size:50px;
+	padding:0%;
+	min-width:100px;
+}
+#option1{
+	max-width:70%;
+	background-color:#EDEDED;
+	border-color:#dddddd;
+	border-width:0.5px;
+}
+input{
+	height:30px;
+	font-size:20px;
+}
+.tags{
+	height:40px;
+	font-size:35px;
+}
+.chosen{
+	height:40px;
+	font-size:35px;
+}
+
+}
+
