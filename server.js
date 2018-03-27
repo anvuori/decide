@@ -5,11 +5,12 @@ var app = express();
 var bodyParser = require('body-parser');
 app.use(bodyParser.json());
 
-//have it listen port 8080
-app.listen(8080);
+//listen port 8080
+var port = process.env.PORT || 8080;
+app.listen(port);
 
 /*serve static files from the file 'public'*/
-app.use(express.static('public'))
+app.use(express.static(__dirname + '/public'));
 
 
 /* Chooses one from the options given with a post request {[name, id], [name2, id2], ...} */
