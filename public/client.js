@@ -61,6 +61,7 @@ function addOptionTag(){
 		
 		addOption(data);
 		document.getElementById("option1").value = ""
+		document.getElementById("option1").focus();
 	}
 }
 
