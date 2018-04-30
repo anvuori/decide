@@ -123,10 +123,10 @@ td{
 	margin-top:0px;
 	padding-top: 40px;
   padding-bottom: 40px;
-	
+
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 1000px) {
 html{
 	overflow-x: hidden;
 	width:100%;
@@ -142,11 +142,11 @@ html{
 	font-size:85px;
 	}
 */
-	
+
     #total{
 	margin:auto;
 	width:100%;
-	
+
 }
 #result{
 	width:92%:
@@ -177,4 +177,3 @@ input{
 }
 
 }
-
