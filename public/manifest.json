@@ -2,7 +2,7 @@
   "name": "!decide",
   "short_name": "!decide",
   "start_url": ".",
-  "display": "fullscreen",
+  "display": "standalone",
   "background_color": "#ffffff",
   "description": "App to help you make decisions",
   "theme_color": "#4dd9db",
